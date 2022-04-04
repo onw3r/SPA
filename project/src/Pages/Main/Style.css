@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.main__page{
+    background-image: url('../../Images/background.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 176px);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__page:nth-child(3){
+    align-items: end;
+}
+/*----------------main-content----------------*/
+
+.main__content{
+    padding-top: 160px;
+}
+
+.main__content-logo{
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+
+}
+
+.main__content-brand{
+    margin: 93px auto 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.main__content-brand-wrapper{
+    height: 86px;
+    font-family: Post No Bills Jaffna, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 96px;
+
+}
+
+
+.main__content-city{
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    padding-top: 5px;
+
+}
+.main__content-description{
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 730px;
+}
+.main__content-description-text{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*----------------main-content----------------*/

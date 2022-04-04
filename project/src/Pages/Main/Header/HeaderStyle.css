@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.main__header{
+    height: 126px;
+}
+
+/*----------------header-top----------------*/
+
+
+.main__header-top{
+
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    padding: 14px;
+    letter-spacing: 1px;
+
+
+}
+
+.header-top-link{
+    text-decoration: none;
+    color: #969696;
+}
+.header-top-contacts{
+    font-family: 'PT Sans', sans-serif;
+}
+.header-top-contacts-schedule{
+    border-left: 1px solid #969696;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.header-top-login-link{
+    text-decoration: none;
+    color: #969696;
+}
+.header-top-login-link:hover{
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+/*----------------header-top----------------*/
+
+/*----------------header-mid----------------*/
+.main__header-mid{
+    width: 100%;
+    height: fit-content;
+    background: #0F0F0F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+
+}
+.header-mid-main-link{
+    font-family: Post No Bills Jaffna,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #fff;
+    text-decoration: none;
+}
+.header-mid-logo-span{
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.header-mid-menu-catalog{
+    display: flex;
+
+}
+.header-mid-menu-link{
+    text-decoration: none;
+    color: #969696;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 32px 20px;
+
+
+}
+
+.header-mid-menu-link:hover{
+    color: #FFFFFF;
+    background: #1F1F1F;
+    transition: 0.5s;
+
+}
+/*----------------header-mid----------------*/

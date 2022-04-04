@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.page-catalog{
+    width: 100%;
+    min-height: calc(100vh - 176px);
+    height: 100%;
+    background: #000;
+}
+
+.catalog-content-wrapper{
+    position: relative;
+}
+.catalog-header{
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 80px 40px 40px;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 65px auto 0 auto;
+
+
+}
+
+.input{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    display: block;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 26px;
+    padding: 7px 10px;
+
+}
+.input:hover{
+    border: 1px solid #ff9e25;
+
+}
